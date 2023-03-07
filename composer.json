@@ -1,0 +1,40 @@
+{
+    "name": "thedeparted/laravel-developer-pack",
+    "keywords": [
+      "laravel",
+      "developers",
+      "pack",
+      "mysql",
+      "backup",
+      "artisan",
+      "commands"
+    ],
+    "type": "library",
+    "require": {
+      "php": ">=8.1.0"
+    },
+    "description": "Laravel Developer Pack",
+    "license": "GPL-3.0",
+    "authors": [
+      {
+        "name": "The Departed",
+        "email": "thedepart3d@protonmail.com"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "thedeparted\\LaravelDeveloperPack\\": "src"
+      }
+    },
+    "config": {
+      "optimize-autoloader": true,
+      "sort-packages": true
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "thedeparted\\LaravelDeveloperPack\\LaravelDeveloperPackServiceProvider"
+        ]
+      }
+    }
+  }
